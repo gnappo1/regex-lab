@@ -16,6 +16,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(string_number)
-    # binding.pry
     /(\d{10})|(\(\d{3}\))(\d{3}-\d{4}|\d{7})|\d{3} \d{3} \d{4}/.match?(string_number)
 end
